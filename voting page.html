@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+            background-image: url("C:\\Users\\Lenovo\\Downloads\\WhatsApp Image 2024-04-05 at 09.14.10.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkred;
+        }
+
+        #instructions {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Voting Page</h1>
+    </header>
+    <main>
+        <div id="instructions">
+            <h2>Instructions</h2>
+            <p>
+                1. Please start voting when you are ready.<br>
+                2. Click on "Finish Voting" to submit your vote.<br>
+                3. You can restart the voting process if needed.<br>
+            </p>
+        </div>
+        <button onclick="startVoting()">Start Voting</button>
+        <button onclick="finishVoting()">Finish Voting</button>
+        <button onclick="restartVoting()">Restart Voting</button>
+        <br>
+        <form action="login.html" method="post">
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">I agree to the terms and conditions</label><br>
+            <button type="submit">Login</button>
+        </form>
+    </main>
+</body>
+</html>

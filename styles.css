@@ -1,0 +1,353 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: hsla(211, 100%, 50%, 0);
+    color: hsl(0, 87%, 3%);
+    padding: 0%;
+}
+header{
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-right: auto;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav ul li a:hover {
+    background-color: #555;
+}
+
+.header-buttons {
+    margin-right: 20px;
+}
+
+.red-btn {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.red-btn:hover {
+    background-color: #cc0000;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+section h2{
+    margin-bottom: 20px;
+}
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo .container {
+    font-size: 1.5em;
+    background-color: #000;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+.nav-icon {
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+.scrolling-text {
+    overflow: hidden;
+    white-space: nowrap;
+}
+.scrolling-text a {
+    color: rgba(139, 0, 0, 1) !important;
+    text-decoration: none;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+ /* Previous CSS styles remain unchanged */
+
+.image-section {
+    text-align: center;
+    margin-top: 10px;
+    border-image-width: auto;
+}
+
+.image-section img {
+    max-width: 500%;
+    height: auto;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+/* Styles for the services section */
+#services {
+    padding: 50px 0;
+}
+
+.services-table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 700px;
+    background-color: #f5f5f5;
+    padding: 50px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.service h3 {
+    color: #333;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.service ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service ul li {
+    margin-bottom: 10px;
+}
+
+.service ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.service ul li a:hover {
+    text-decoration: underline;
+}
+
+.know-more-btn {
+    display: block;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 30px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.know-more-btn:hover {
+    background-color: #0056b3;
+}
+.instructions-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.instructions-table th, .instructions-table td {
+    border: 5px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.instructions-table th {
+    background-color: #f2f2f2;
+}
+
+.instructions-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.instructions-table tr:hover {
+    background-color: #f5f5f5;
+}
+.red-btn {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contact-form, .social-media, .newsletter {
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+}
+
+.contact-form h3, .social-media h3, .newsletter h3 {
+    font-size: 18px;
+}
+
+.contact-form input, .contact-form textarea, .newsletter input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button, .newsletter button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form button:hover, .newsletter button:hover {
+    background-color: #cc0000;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.red-btn:hover {
+    background-color: #cc0000;
+}
